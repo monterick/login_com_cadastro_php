@@ -1,0 +1,45 @@
+.box{    
+    height: 250px;
+    width: 200px;
+    background: linear-gradient(to right, rgb(56, 101, 250),rgb(16, 255, 243));
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 5px rgb(100, 100, 100);
+}
+.box input{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px purple;
+    border-radius: 5px;
+}
+#login{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    height: 60px;
+}
+.box button{
+    margin-top: 10px;
+    text-decoration: none;
+    
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+label{
+    margin-left: 20px;
+}

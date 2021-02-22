@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    grid-area: header;
+    background-color: blue;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header button{
+    display: inline-block;
+}
+.header span{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer{
+    background-color: rgb(177, 177, 177);
+}
+
+label{
+    margin-left: 20px;
+    margin-top: 10px;
+}
